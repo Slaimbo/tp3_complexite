@@ -77,7 +77,7 @@ int main(int argc, char** argv)
 					grille_sudoku[i][j][k] = var_name++;
 				}
 			}
-			curr++;			
+			curr++;
 		}
 	}
 

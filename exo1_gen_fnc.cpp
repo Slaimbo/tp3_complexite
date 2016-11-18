@@ -25,10 +25,10 @@ int main(int argc, char ** argv)
 			if( i+1 == (unsigned int) atoi( argv[j] ) )
 				cout << argv[j+1] << ' ';
 		}
-		if( i < nb_sommet-1 )
+		//if( i < nb_sommet-1 )
 			cout << '0' << endl;
 	}
-	cout << '0';
+	//cout << '0';
 
 	return 0;
 }

@@ -82,7 +82,7 @@ int main(int argc, char** argv)
 	}
 
 	//Entete minisat
-	cout << "p cnf " << 729-nb_set << " \n\n";
+	cout << "p cnf " << 729-nb_set << " ght\n\n";
 
 
 	//Creation de phi 1
@@ -282,24 +282,5 @@ int main(int argc, char** argv)
 			}
 		}
 	}
-
-
-	/*
-	for( int i = 0; i < taille; i++)
-	{
-		for( int j = 0; j < taille; j++)
-		{
-			for( int k = 0; k < taille; k++)
-			{
-				cout << grille_sudoku[i][j][k] << ' ';
-			}
-			cout << endl;
-		}
-	}
-	*/
-
-	
-
-	//TODO
 	return 0;
 }

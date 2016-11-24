@@ -21,3 +21,5 @@ then
 fi
 
 echo $p
+
+rm -f videordure.ord exo1_res.txt
